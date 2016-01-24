@@ -1,0 +1,35 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-layout {
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-layout .form-layout-heading,
+.form-layout .checkbox {
+  margin-bottom: 10px;
+}
+.form-layout .checkbox {
+  font-weight: normal;
+}
+.form-layout .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-layout .form-control:focus {
+  z-index: 2;
+}
+.form-layout input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
